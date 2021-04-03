@@ -4,10 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:stream_choose/src/models/movie_model.dart';
 
-// class GetLocationIDFailure implements Exception {
-//   final String msg = "There was a problem loading the location ID";
-// }
-
 class GetMovieFailure implements Exception {
   final String msg = "There was a problem loading the movie :(";
 }

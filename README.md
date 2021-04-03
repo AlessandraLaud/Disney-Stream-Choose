@@ -16,6 +16,7 @@
 * [Cuperetino Icons](https://github.com/flutter/cupertino_icons)
 * [Http](https://github.com/dart-lang/http)
 * [Intl](https://github.com/dart-lang/intl)
+* [Api](https://www.themoviedb.org/documentation/api)
 
 ## Folder structure
 
@@ -26,7 +27,8 @@
     │    ├── models     # Contains the apps models (represents app data)
     │    ├── pages      # Contains the apps pages/views
          ├── providers  # Contains the apps providers (Changes data and provides data)
-         ├── widgets    # A folder that contains the apps widgets
+         ├── repository # Provides the abstraction of data
+         ├── widgets    # Contains the apps widgets
          ├── app.dart   # The app's first view on start
     │    └── theme.dart # app theme/style
     └── main.dart       # app start
